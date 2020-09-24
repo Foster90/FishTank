@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace FishTank
 {
-    public class Class1
+   public interface IFish
     {
+         string name { get; set; }
+         double foodRequired { get; set; }
+
     }
 }
