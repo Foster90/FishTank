@@ -13,7 +13,7 @@ namespace FishTankUnitTest
 
             GoldFish goldFish = new GoldFish("Jot");
 
-            Assert.AreEqual("Spot", goldFish.name);
+            Assert.AreEqual("Jot", goldFish.name);
             Assert.AreEqual(0.1, goldFish.foodRequired);
 
         }
